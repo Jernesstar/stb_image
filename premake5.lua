@@ -7,6 +7,11 @@ project "stb_image"
 
     files
     {
-        "stb_image.h",
-        "stb_image.cpp",
+        "include/stb_image/stb_image.h",
+        "src/stb_image.cpp",
+    }
+
+    includedirs
+    {
+        "include"
     }
